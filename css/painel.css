@@ -1,0 +1,210 @@
+/* ==========================================
+   CONTAINER PRINCIPAL
+========================================== */
+
+.formulario-card{
+
+    background:white;
+
+    max-width:1200px;
+
+    margin:40px auto;
+
+    padding:40px;
+
+    border-radius:32px;
+
+    box-shadow:
+    0 20px 60px rgba(15,23,42,.08);
+
+    border:1px solid rgba(255,255,255,.8);
+
+    backdrop-filter:blur(15px);
+}
+
+/* ==========================================
+   TITULO
+========================================== */
+
+.titulo-palavra{
+
+    text-align:center;
+
+    margin-bottom:35px;
+}
+
+.titulo-palavra h1{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    color:#12346d;
+
+    letter-spacing:-2px;
+}
+
+/* ==========================================
+   CAMPOS
+========================================== */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:18px 22px;
+
+    border-radius:18px;
+
+    border:2px solid #d7eef5;
+
+    background:#fff;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:#22d3ee;
+
+    box-shadow:
+    0 0 0 5px rgba(34,211,238,.15);
+}
+
+textarea{
+
+    min-height:160px;
+
+    resize:vertical;
+}
+
+/* ==========================================
+   LABELS
+========================================== */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    margin-top:18px;
+
+    font-weight:700;
+
+    color:#12346d;
+}
+
+/* ==========================================
+   BOTÃO SALVAR
+========================================== */
+
+.btn-salvar{
+
+    width:100%;
+
+    margin-top:30px;
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    background:
+    linear-gradient(
+        135deg,
+        #22d3ee,
+        #39d5a3
+    );
+
+    transition:.3s;
+}
+
+.btn-salvar:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 15px 30px rgba(34,211,238,.3);
+}
+
+/* ==========================================
+   GRID DOS CAMPOS
+========================================== */
+
+.grid-form{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+}
+
+/* ==========================================
+   DECORAÇÃO TECNOLÓGICA
+========================================== */
+
+.formulario-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-80px;
+
+    right:-80px;
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(
+        rgba(34,211,238,.15),
+        transparent
+    );
+}
+
+.formulario-card{
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+/* ==========================================
+   RESPONSIVO
+========================================== */
+
+@media(max-width:900px){
+
+    .grid-form{
+
+        grid-template-columns:1fr;
+    }
+
+    .titulo-palavra h1{
+
+        font-size:38px;
+    }
+}
