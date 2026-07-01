@@ -1,8 +1,4 @@
-/* =====================================================
-   MÃOS QUE CODAM - STYLE.CSS COMPLETO E ORGANIZADO
-   Compatível com Chrome, Edge e celular
-   Coloque este arquivo em: css/style.css
-===================================================== */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&display=swap');
 
@@ -224,7 +220,7 @@ select{
 }
 
 /* =====================================================
-   HOME COMPACTA
+   HOME 
 ===================================================== */
 
 .home-compacta,
