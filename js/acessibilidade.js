@@ -1,7 +1,3 @@
-/* =========================================================
-   ACESSIBILIDADE - Mãos que Codam
-   Corrigido: aumentar/diminuir fonte com vários cliques
-   ========================================================= */
 
 let zoomAcessibilidade = parseInt(localStorage.getItem("zoomAcessibilidade"), 10);
 
