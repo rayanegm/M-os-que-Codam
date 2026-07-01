@@ -1,9 +1,9 @@
 <?php
 
-$host = "sql210.infinityfree.com";
-$usuario = "if0_42064994";
-$senha = "HeLena456";
-$banco = "if0_42064994_maosquecodam";
+$host = "infinityfree.com";
+$usuario = "usuario";
+$senha = "password"
+$banco = " ";
 
 $conexao = new mysqli(
     $host,
