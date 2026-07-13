@@ -41,4 +41,4 @@ O projeto surgiu a partir da necessidade observada em sala de aula, onde colegas
 Nosso objetivo é expandir o **Mãos que Codam** para outras áreas do conhecimento, adicionando novos conteúdos, aulas acessíveis em Libras, exercícios práticos e mais recursos que fortaleçam a inclusão no ensino da tecnologia.
 ---
 
-                                                **Mãos que Codam** acredita que conhecimento deve ser acessível para todos. 🤟💙
+ **Mãos que Codam** acredita que conhecimento deve ser acessível para todos. 🤟💙
