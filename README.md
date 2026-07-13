@@ -28,6 +28,7 @@ O projeto surgiu a partir da necessidade observada em sala de aula, onde colegas
 * CSS3
 * JavaScript
 * PHP
+* MySQL
 
 ## Público-alvo
 
